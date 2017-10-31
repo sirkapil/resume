@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: hsla(60, 100%, 97%, 1);
+  background-color: hsla(60, 100%, 99%, 1);
 }
 
 #shortcut {
@@ -31,5 +31,5 @@ body {
   left: calc( -112.391px + 1.5em );
   transform: rotate( -90deg );
   transform-origin: bottom right;
-  /* background-color: hsla(60, 100%, 97%, 1); /*/
+  /* background-color: hsla(60, 100%, 99%, 1); /*/
 }
