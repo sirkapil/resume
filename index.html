@@ -3,8 +3,14 @@
 <head>
     <meta charset="utf-8"/>
     <title>Resume</title>
-    <link rel="stylesheet" href="tufte.min.css"/>
-    <link rel="stylesheet" href="latex.css"/>
+    <link rel="preload" href="/tufte.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/tufte.min.css"></noscript>
+    <link rel="preload" href="/latex.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> 
+     <noscript><link rel="stylesheet" href="/latex.css"></noscript>
+      <script> 
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(){ ... }());
+      </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Chrome, Firefox OS and Opera --> 
 <meta name="theme-color" content="#99A3A4"> 
@@ -14,7 +20,6 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#99A3A4">
 <link rel="icon" sizes="16x16 32x32 48x48 96x96 192x192" href="//sirkapil.me/img/icon/icon.png">
   </head>
-
   <body>
     <article>
       <h1 id="tufte-css">Kapil Chaudhary
